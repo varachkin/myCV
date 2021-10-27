@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #959595;
+    font-family: Calibri, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: Calibri, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 30px auto 15px;
+}
+
+h4 {
+    font-size: 26px;
+    padding-bottom: 15px;
+    margin-bottom: 7px;
+    border-bottom: 2px solid #f3f3f3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background: #2d2d2d;
+}
+
+.info-left-container {
+    width: 35%;
+}
+
+.info-left {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 60px 30px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #f3f3f3;
+}
+
+.avatar {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.dark-section {
+    width: 100%;
+    margin: 12px 0;
+}
+
+.dark-section-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dark-section-list li a {
+    display: inline-flex;
+    align-items: center;
+    margin: 7px 0;
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size: 18px;
+}
+
+.dark-section-list li a img {
+    width: 28px;
+    margin-right: 12px;
+}
+
+.info-right {
+    width: 65%;
+}
+
+.info-right-block {
+    padding: 60px 30px 20px;
+    text-align: justify;
+    background: #f3f3f3;
+}
+
+.info-right-block-end {
+    height: 40px;
+    margin-bottom: 70px;
+    background: linear-gradient(35deg, #2d2d2d 30%, #f3f3f3 10%, #f3f3f3 10%);
+}
+
+.title {
+    font-family: Calibri, sans-serif;
+    background: #2d2d2d;
+    color: #f3f3f3;
+    padding: 12px 30px;
+}
+
+.description {
+    margin: 15px 20px;
+}
+
+.description-list {
+    list-style: none;
+    margin-left: 10px;
+    padding: 0;
+    border-left: 2px solid #0f1316;
+}
+
+.description-list li {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 12px;
+}
+
+.marker {
+    display: block;
+    min-width: 12px;
+    height: 12px;
+    position: relative;
+    left: -7px;
+    background-color: #0f1316;
+    border-radius: 50%;
+}
+
+.list-text {
+    margin: 0 10px;
+}
