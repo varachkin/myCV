@@ -97,7 +97,7 @@ input {
     margin: 7px 0;
     text-decoration: none;
     color: #f3f3f3;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .dark-section-list li div span, .dark-section-list li a span {
@@ -109,7 +109,7 @@ input {
 }
 
 .dark-section-list li img {
-    width: 44px;
+    width: 30px;
     margin-right: 12px;
 }
 
