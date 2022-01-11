@@ -68,7 +68,7 @@ input {
 
 .avatar {
     background-image: url("img/photo_cv.png");
-    background-position: center 25px;
+    background-position: 15px 15px;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto 40px;
